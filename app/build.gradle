@@ -11,7 +11,8 @@ android {
 
     defaultConfig {
         applicationId "com.dicoding.tourismapp"
-        minSdkVersion 23
+//        minSdkVersion 23
+        minSdk 23
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
