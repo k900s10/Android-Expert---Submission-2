@@ -22,13 +22,13 @@ import java.util.concurrent.TimeUnit
 val databaseModule = module {
     factory { get<TourismDatabase>().tourismDao() }
     single {
-        val passphrase: ByteArray = SQLiteDatabase.getBytes("dicoding".toCharArray())
-        val factory = SupportFactory(passphrase)
+//        val passphrase: ByteArray = SQLiteDatabase.getBytes("dicoding".toCharArray())
+//        val factory = SupportFactory(passphrase)
         Room.databaseBuilder(
             androidContext(),
             TourismDatabase::class.java, "Tourism.db"
         ).fallbackToDestructiveMigration()
-            .openHelperFactory(factory)
+//            .openHelperFactory(factory)
             .build()
     }
 }
