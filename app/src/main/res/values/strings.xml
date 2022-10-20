@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Tourism App</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -11,5 +11,6 @@
     <string name="title_activity_detail_home">DetailHomeActivity</string>
     <string name="no_data">Empty data</string>
     <string name="something_wrong">Oops.. something went wrong</string>
-    <string name="title_maps">Maps</string>
+    <string name="title_favorite" tools:keep="@string/title_favorite">Favorite</string>
+    <string name="title_maps" tools:keep="@string/title_maps">Maps</string>
 </resources>

@@ -43,6 +43,7 @@ android {
         viewBinding = true
     }
     dynamicFeatures = [':maps']
+    dynamicFeatures = [':favorite']
 }
 
 dependencies {
